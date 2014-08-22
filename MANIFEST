@@ -1,0 +1,17 @@
+Build.PL
+Changes
+LICENSE
+META.json
+README.md
+cpanfile
+lib/Test/Docker/Image.pm
+lib/Test/Docker/Image/Boot.pm
+lib/Test/Docker/Image/Boot/Boot2docker.pm
+minil.toml
+t/00_compile.t
+t/test/docker/image/00_base.t
+t/test/docker/image/01_new.t
+t/test/docker/image/boot.t
+t/test/docker/image/boot/boot2docker.t
+META.yml
+MANIFEST
