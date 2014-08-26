@@ -54,6 +54,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::Deep" : "0.112",
             "Test::Mock::Guard" : "0.10",
             "Test::More" : "0.98",
             "Test::UseAllModules" : "0.15"
@@ -63,7 +64,7 @@
    "provides" : {
       "Test::Docker::Image" : {
          "file" : "lib/Test/Docker/Image.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       },
       "Test::Docker::Image::Boot" : {
          "file" : "lib/Test/Docker/Image/Boot.pm"
@@ -83,7 +84,7 @@
          "web" : "https://github.com/iwata/p5-Test-Docker-Image"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_contributors" : [
       "iwata-motonori <motonori.iwata@dena.com>",
       "Motonori Iwata <gootonori+github@gmail.com>"

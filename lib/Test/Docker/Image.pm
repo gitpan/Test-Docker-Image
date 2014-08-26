@@ -14,7 +14,7 @@ use Class::Accessor::Lite (
     ro => [qw/tag container_ports container_id/],
 );
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub WARN {
     my $msg = join " ",  @_;
@@ -104,7 +104,7 @@ Test::Docker::Image - It's new $module, this can handle a Docker image for tests
     my $host = $mysql_image_guard->host;
 
     `mysql -uroot -h$host -P$port -e 'show plugins'`;
-    undef $mysql_image_guard; # destroy a guard object and execute docker kill and rmi the container.
+    undef $mysql_image_guard; # destroy a guard object and execute docker kill and rm the container.
 
     # for Mac OSX
     `boot2docker up`;
