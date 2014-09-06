@@ -7,11 +7,13 @@ cpanfile
 lib/Test/Docker/Image.pm
 lib/Test/Docker/Image/Boot.pm
 lib/Test/Docker/Image/Boot/Boot2docker.pm
+lib/Test/Docker/Image/Utility.pm
 minil.toml
 t/00_compile.t
 t/test/docker/image/00_base.t
 t/test/docker/image/01_new.t
-t/test/docker/image/boot.t
-t/test/docker/image/boot/boot2docker.t
+t/test/docker/image/02_utility.t
+t/test/docker/image/03_boot.t
+xt/00_scenario.t
 META.yml
 MANIFEST
