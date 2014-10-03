@@ -6,7 +6,6 @@ README.md
 cpanfile
 lib/Test/Docker/Image.pm
 lib/Test/Docker/Image/Boot.pm
-lib/Test/Docker/Image/Boot/Boot2docker.pm
 lib/Test/Docker/Image/Utility.pm
 minil.toml
 t/00_compile.t
